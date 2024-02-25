@@ -185,7 +185,6 @@ Dalam contoh ini, kolom options dapat memiliki satu atau beberapa kombinasi nila
 
 >[!faq] Perbedaan antara PK dan UNIQUE
 >BOTH PK (Primary Key) and UNIQUE constraints are used to enforce uniqueness in columns, but they have different purposes:
-
 1. *Primary Key (PK)*:
    - A primary key is a column or a set of columns that uniquely identifies each row in a table.
    - There can only be one primary key constraint per table.
