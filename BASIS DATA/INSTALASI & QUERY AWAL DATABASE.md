@@ -11,12 +11,13 @@
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
   4. ketik mysql -u root -p
+
   ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rehan.png?raw=true)  
 
 
- 5. baru enter lalu nantinya akan muncul seperti ini klik lagi enter
+  5. baru enter lalu nantinya akan muncul seperti ini klik lagi enter
 
-    ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/frhan.png?raw=true)
+   ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/frhan.png?raw=true)
 
 
 # Referensi video youtube
