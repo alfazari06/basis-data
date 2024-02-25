@@ -12,7 +12,9 @@ select warna,pemilik from mobil where warna="HITAM" and pemilik='Ibrahim'
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select and.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20and.png?raw=true)
+
 ### Analisis
 Perintah SQL di atas merupakan sebuah query yang digunakan untuk mengambil data dari tabel 'mobil'. Query tersebut memiliki dua kondisi pencarian, yaitu warna mobil yang harus sama dengan "HITAM" dan pemilik mobil yang harus sama dengan "Ibrahim". Dalam query tersebut, dipilih dua kolom yaitu 'warna' dan 'pemilik'. Jadi, hasil dari query tersebut akan menampilkan semua mobil dengan warna hitam yang dimiliki oleh seseorang dengan nama Ibrahim.
 ### Kesimpulan
@@ -29,7 +31,8 @@ select warna,pemilik from mobil where warna='HITAM' or pemilik='ibrahim';
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select OR.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20OR.png?raw=true)
 
 ### Analisis
 1. Mengambil data mobil dengan warna "HITAM".
@@ -57,7 +60,9 @@ select * from mobil where harga_rental between 100000 and 200000;
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select between.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20between.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian menggunakan klausa BETWEEN untuk kolom 'harga_rental'. Klausa BETWEEN digunakan untuk menentukan rentang nilai yang akan dicari.
 
@@ -81,7 +86,9 @@ select * from mobil where harga_rental not between 100000 and 200000;
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select not between.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20not%20between.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian menggunakan klausa NOT BETWEEN untuk kolom 'harga_rental'. Klausa NOT BETWEEN digunakan untuk mengecualikan rentang nilai yang akan dicari.
 
@@ -106,7 +113,9 @@ select * from mobil where harga_rental <=50000;
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select lebih kecil.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20lebih%20kecil.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian dimana harga rental mobil kurang dari atau sama dengan 50,000.
 
@@ -132,7 +141,9 @@ select * from mobil where harga_rental >=50000;
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select lebih besar.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20lebih%20besar.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian dimana harga rental mobil lebih besar dari atau sama dengan 50,000.
 
@@ -145,8 +156,8 @@ Analisis:
 Jadi, hasil dari query ini akan menampilkan semua data mobil yang memiliki harga rental lebih besar dari atau sama dengan 50,000.
 ### Kesimpulan
 Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dimana harga rental mobil lebih besar dari atau sama dengan 50,000. Ini berarti query tersebut akan menghasilkan daftar semua mobil yang memiliki harga rental lebih besar dari atau sama dengan 50,000.
-# Select <> atau !=
 
+# Select <> atau !=
 ## Struktur Query
 ```mysql
 select * from nama_tabel where nama_kolom <>nilai_kolom 1;
@@ -158,7 +169,8 @@ select * from mobil where harga_rental <>50000;
 
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select lebih besar-kecil.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20lebih%20besar-kecil.png?raw=true)
 
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian dimana harga rental mobil tidak sama dengan 50,000.
@@ -172,19 +184,8 @@ Analisis:
 Jadi, hasil dari query ini akan menampilkan semua data mobil yang memiliki harga rental yang tidak sama dengan 50,000.
 ### Kesimpulan
 Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dimana harga rental mobil tidak sama dengan 50,000. Ini berarti query tersebut akan menghasilkan daftar semua mobil yang memiliki harga rental yang berbeda dari 50,000.
-
-# Tantangan
-## struktur Query
-
-## Contoh
-
-## Analisis
-
-## Kesimpulan
-
  
 # Select  IN
-
 ## Struktur Query
 ```mysql
  select * from nama_tabel where nama_kolom in ('nilai_kolom 2','nilai_kolom 1');
@@ -195,7 +196,9 @@ Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dima
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select in.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20in.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan kondisi pencarian dimana warna mobil adalah 'silver' atau 'merah'.
 
@@ -224,7 +227,9 @@ Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dima
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select IN+AND.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20IN%2BAND.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan dua kondisi pencarian:
 
@@ -243,7 +248,6 @@ Jadi, hasil dari query ini akan menampilkan semua data mobil yang memiliki warna
 Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dimana warna mobil adalah 'HITAM' atau 'SILVER', dan harga rental mobil adalah 50,000. Ini berarti query tersebut akan menghasilkan daftar semua mobil yang memiliki warna 'HITAM' atau 'SILVER', dan harga rental mobil adalah 50,000.
 
 # Select IN+OR
-
 ## Struktur Query
 ```mysql
  select * from nama_tabel
@@ -258,7 +262,9 @@ Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dima
 ```
 ### Hasil
 **setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:**
-![[h.select IN+OR.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20IN%2BOR.png?raw=true)
+
 ### Analisis
 Query MySQL di atas digunakan untuk mengambil data dari tabel 'mobil' dengan dua kondisi pencarian:
 
@@ -276,7 +282,6 @@ Jadi, hasil dari query ini akan menampilkan semua data mobil yang memiliki warna
 ### Kesimpulan
 Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'mobil' dimana warna mobil adalah 'HITAM' atau 'SILVER', atau harga rental mobil adalah 50,000. Ini berarti query tersebut akan menghasilkan daftar semua mobil yang memiliki warna 'HITAM' atau 'SILVER', serta semua mobil yang memiliki harga rental 50,000.
 # Select IN+AND+OPERATOR
-
 ## Struktur Query
 ```mysql
 select * from mobil
@@ -305,9 +310,14 @@ select * from mobil
 
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[h.select in+and+operator.png]]
+contoh 1
 
-![[h.select in+and+operator.2.png]]
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20in%2Band%2Boperator.png?raw=true)
+
+contoh 2
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%20in%2Band%2Boperator.2.png?raw=true)
+
 ## Analisis
 Query MySQL pertama digunakan untuk mengambil data dari tabel 'mobil' dengan dua kondisi pencarian:
 
