@@ -95,13 +95,16 @@ Kesimpulannya, penggunaan basis data di MySQL berserta formatnya melibatkan pema
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/hcd.png?raw=true)
 
 ## Hasil dari show databases
-![[hsd.png]]
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/hsd.png?raw=true)
 
 ## Hasil dari Drod database
-![[hdd.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/hdd.png?raw=true)
 
 ## Hasil dari Use
-![[hud.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/hud.png?raw=true)
+
 # Tipe Data
 ## Angka
 - Integer (Bilangan Bulat): Digunakan untuk menyimpan bilangan bulat tanpa desimal, seperti 1, -5, atau 100.
