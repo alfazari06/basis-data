@@ -2,7 +2,7 @@
 # menggunakan xampp
 1. Buka Xampp
 2. klik start di mysql
-    ![[r.p.png]]
+    ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/r.p.png?raw=true)
 3. klik shell
 
     ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
