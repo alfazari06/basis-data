@@ -10,7 +10,7 @@
 
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
-  4. ketik mysql -u root -p
+  4. ketik mysql -u root -phttps://github.com/alfazari06/basis-data/edit/main/BASIS%20DATA/INSTALASI%20%26%20QUERY%20AWAL%20DATABASE.md
 
   ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rehan.png?raw=true)  
 
@@ -261,19 +261,6 @@ no_telp char(12) unique);
    - Unik: Constraint UNIQUE diterapkan, memastikan bahwa setiap nomor telepon di kolom ini harus unik di antara semua entri dalam tabel.
    - Tipe Data: CHAR(12) menunjukkan bahwa nomor telepon harus memiliki panjang tepat 12 karakter.
 
-# Tampilan struktur Tabel
-## struktur
-
-## contoh
-## hasil
-## analisis
-
-## kesimpulan
-
-
-# menampilkan daftar tabel
-![[buat.table6.png]]
-![[buat.table7.png]]
 
 # Insert
 ## Insert 1 data
@@ -289,6 +276,7 @@ valeus ('NILAI','NILAI2','NILAI3','NILAI4');
 insert into customerr values (1,'raihan','alfz','087868449445');
 ```
 ## Hasil
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.select%201%20kolom.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah INSERT INTO yang digunakan untuk menyisipkan data ke dalam tabel customerr. Data yang akan dimasukkan adalah: 1 sebagai nilai untuk kolom pertama (mungkin ID pelanggan), 'raihan' untuk kolom kedua (mungkin nama depan), 'alfz' untuk kolom ketiga (mungkin nama belakang), dan '087868449445' untuk kolom keempat (mungkin nomor telepon).
@@ -319,6 +307,13 @@ insert into customer
     -> (3,'Jamil','lhm','085823967204'),
     -> (4,'ardy','rd','0895333405548');
     ```
+## Hasil
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20.png?raw=true)
+
+## Analisis
+
+## Kesimpulan
+
 
 # Menyebut kolom
 ```mysql
