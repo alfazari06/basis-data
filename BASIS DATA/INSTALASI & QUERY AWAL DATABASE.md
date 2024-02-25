@@ -10,9 +10,9 @@
 
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
-  5. ketik mysql -u root -p
+  4. ketik mysql -u root -p
 
-    ![[rehan.png]]
+  ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rehan.png?raw=true)  
 
 
  5. baru enter lalu nantinya akan muncul seperti ini klik lagi enter
