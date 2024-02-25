@@ -1,0 +1,254 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "posisi",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "8e01efa5-2a4c-4dcd-b41f-0cb2b8f27bc9",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "61a2b96a-05f8-4d1a-a82f-6807786f896b",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "umur",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "714529be-971d-4fb6-847f-21989420ad48",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "no punggung",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "49293428-e6e5-4c5a-8f6f-8444d15e5d38",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-22T10:02:53.087Z",
+        "lastEditedDateTime": "2024-01-23T01:01:54.654Z",
+        "cells": [
+          {
+            "id": "873941a6-436e-400c-a93f-aa1226a9ed0b",
+            "columnId": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+            "content": "Penyerang",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5853830d-0f2b-4f52-a641-21125f8bebde",
+            "columnId": "8e01efa5-2a4c-4dcd-b41f-0cb2b8f27bc9",
+            "content": "C. Ronaldo",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "bd2fd20a-382e-4fd9-bab4-d692974963a5",
+            "columnId": "61a2b96a-05f8-4d1a-a82f-6807786f896b",
+            "content": "38 tahun",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "88c6ead2-6b76-45af-ba43-58b896b4c038",
+            "columnId": "714529be-971d-4fb6-847f-21989420ad48",
+            "content": "7",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "c47e5d87-3538-4d40-9ad6-0c031bd06f88",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-22T10:10:15.645Z",
+        "lastEditedDateTime": "2024-01-23T01:02:35.128Z",
+        "cells": [
+          {
+            "id": "b9b7ec6a-80de-4252-935e-e9aa9bdbcd77",
+            "columnId": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+            "content": "Gelandang",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0cfecbe4-9404-4d9b-8181-5f0cd7500480",
+            "columnId": "8e01efa5-2a4c-4dcd-b41f-0cb2b8f27bc9",
+            "content": "Jude bellingham",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b7a29c53-ad97-4fba-81d2-5b42fc018ac4",
+            "columnId": "61a2b96a-05f8-4d1a-a82f-6807786f896b",
+            "content": "20 tahun",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "50dbcbae-a774-44f0-a500-3e38f85b25bd",
+            "columnId": "714529be-971d-4fb6-847f-21989420ad48",
+            "content": "22",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "a8e57fab-ab66-4e54-9568-b2f255be68c9",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-22T10:10:19.030Z",
+        "lastEditedDateTime": "2024-01-23T01:03:01.291Z",
+        "cells": [
+          {
+            "id": "8e98223d-9d12-4011-85ee-f25b571874db",
+            "columnId": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+            "content": "Kiper",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4b210bee-f040-47ff-a5ec-fe342eccc4ea",
+            "columnId": "8e01efa5-2a4c-4dcd-b41f-0cb2b8f27bc9",
+            "content": "Ann-Katrin Berger",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b3a2d1a9-2302-4fda-aaad-972d151c19b2",
+            "columnId": "61a2b96a-05f8-4d1a-a82f-6807786f896b",
+            "content": "33 tahun",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a4276ffe-0fae-43c5-baef-a523698f324a",
+            "columnId": "714529be-971d-4fb6-847f-21989420ad48",
+            "content": "30",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "e60f01e7-2695-488c-a5b6-f0b2fc59d294",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-22T10:15:16.694Z",
+        "lastEditedDateTime": "2024-01-23T01:02:02.727Z",
+        "cells": [
+          {
+            "id": "e9ad5e79-6a23-4433-bf12-ca665b17d3b1",
+            "columnId": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+            "content": "Penyerang",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ebdacbf4-160e-4523-a71b-8eb134dbdafc",
+            "columnId": "8e01efa5-2a4c-4dcd-b41f-0cb2b8f27bc9",
+            "content": "Leo messi",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b6651f5a-1223-4631-b51b-961b372d7a81",
+            "columnId": "61a2b96a-05f8-4d1a-a82f-6807786f896b",
+            "content": "36 tahun",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "20e27aaa-7fcd-493b-97f5-90160d972c41",
+            "columnId": "714529be-971d-4fb6-847f-21989420ad48",
+            "content": "10",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [
+      {
+        "id": "c4df2dee-443e-439e-bc17-11ee8b8ab8c8",
+        "columnId": "318f5a74-b92f-4c64-9661-3aae956ec8f6",
+        "operator": "or",
+        "isEnabled": true,
+        "type": "text",
+        "condition": "is",
+        "text": ""
+      }
+    ],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": false
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
