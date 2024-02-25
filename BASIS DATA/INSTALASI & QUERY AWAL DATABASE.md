@@ -10,8 +10,7 @@
 
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
-  4. ketik mysql -u root -phttps://github.com/alfazari06/basis-data/edit/main/BASIS%20DATA/INSTALASI%20%26%20QUERY%20AWAL%20DATABASE.md
-
+  4. ketik mysql -u root -p
   ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rehan.png?raw=true)  
 
 
