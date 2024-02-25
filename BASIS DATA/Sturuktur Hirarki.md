@@ -1,4 +1,5 @@
-![siapa](bahagia.jpg)pada tabel mengacu pada struktur organisasi data dalam bentuk tabel. Dalam konteks ini:
+
+pada tabel mengacu pada struktur organisasi data dalam bentuk tabel. Dalam konteks ini:
 
 - *Database:* Kumpulan data yang terorganisir dengan baik, biasanya disimpan dalam tabel atau struktur data lainnya.
     
