@@ -2,12 +2,13 @@
 # menggunakan xampp
 1. Buka Xampp
 2. klik start di mysql
-    ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/r.p.png?raw=true)
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/r.p.png?raw=true)
 3. klik shell
 
     ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
-  4. ketik mysql -u root -p
+  5. ketik mysql -u root -p
 
     ![[rehan.png]]
 
