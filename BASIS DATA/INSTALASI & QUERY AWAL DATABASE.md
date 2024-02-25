@@ -107,25 +107,76 @@ Kesimpulannya, penggunaan basis data di MySQL berserta formatnya melibatkan pema
 
 # Tipe Data
 ## Angka
-- Integer (Bilangan Bulat): Digunakan untuk menyimpan bilangan bulat tanpa desimal, seperti 1, -5, atau 100.
+Tipe data angka dalam MySQL digunakan untuk menyimpan nilai numerik. Berikut adalah definisi untuk beberapa tipe data angka umum dalam MySQL:
 
-- Float (Bilangan Desimal): Untuk menyimpan angka dengan desimal, seperti 3.14 atau -0.5.
+INT atau INTEGER: Tipe data ini digunakan untuk menyimpan bilangan bulat tanpa koma dengan panjang standar 4 byte. Contohnya, INT(10).
 
-- Long (Bilangan Bulat Panjang): Digunakan untuk menyimpan bilangan bulat yang sangat besar.
+TINYINT: Tipe data ini digunakan untuk menyimpan bilangan bulat kecil dengan panjang 1 byte. Contohnya, TINYINT(3).
 
-- Complex (Bilangan Kompleks): Untuk menyimpan angka kompleks yang terdiri dari bagian real dan imajiner.
+SMALLINT: Digunakan untuk menyimpan bilangan bulat dengan panjang 2 byte. Contohnya, SMALLINT(5).
+
+MEDIUMINT: Tipe data ini digunakan untuk menyimpan bilangan bulat dengan panjang 3 byte. Contohnya, MEDIUMINT(8).
+
+BIGINT: Tipe data ini digunakan untuk menyimpan bilangan bulat yang sangat besar dengan panjang 8 byte. Contohnya, BIGINT(20).
+
+DECIMAL atau NUMERIC: Tipe data desimal yang menyimpan angka berkoma dengan presisi dan skala yang dapat diatur. Contohnya, DECIMAL(10,2) untuk menyimpan angka dengan 10 digit, 2 di antaranya di belakang koma.
+
+FLOAT: Digunakan untuk menyimpan angka berkoma dengan presisi ganda. Contohnya, FLOAT(7,4).
+
+DOUBLE: Tipe data ini mirip dengan FLOAT, namun dengan presisi yang lebih tinggi. Contohnya, DOUBLE(15,8).
+
+BIT: Tipe data boolean yang dapat menyimpan nilai 0 atau 1, atau NULL. Contohnya, BIT(1).
+
+Definisi tipe data ini mencakup panjang (length), presisi, dan skala yang memberikan kontrol lebih lanjut terhadap cara data angka disimpan
 ## Teks
-- String: Tipe data yang digunakan untuk menyimpan teks atau karakter. String diwakili oleh serangkaian karakter yang diapit oleh tanda kutip, baik itu tunggal (') atau ganda ("). Contoh: 'hello', "world", atau '123abc'.
+Teks
+Dalam MySQL, terdapat beberapa tipe data teks yang digunakan untuk menyimpan data karakter atau string. Berikut adalah beberapa tipe data teks yang umum digunakan:
 
+CHAR(n): Menyimpan string karakter tetap (fixed-length) dengan panjang n. Jika panjang string kurang dari n, maka akan diisi dengan spasi. Misalnya, CHAR(10) akan menyimpan string dengan panjang tepat 10 karakter.
+
+VARCHAR(n): Menyimpan string karakter dengan panjang variabel (variable-length) maksimal n. Jika panjang string yang disimpan kurang dari n, maka hanya akan menggunakan ruang yang diperlukan. VARCHAR lebih efisien dalam penggunaan ruang dibandingkan CHAR.
+
+TEXT: Menyimpan string karakter dengan panjang variabel yang sangat besar (hingga 65,535 karakter).
+
+TINYTEXT, MEDIUMTEXT, LONGTEXT: Variasi dari tipe data TEXT dengan batasan panjang yang berbeda. TINYTEXT dapat menyimpan hingga 255 karakter, MEDIUMTEXT hingga 16,777,215 karakter, dan LONGTEXT hingga 4,294,967,295 karakter.
 - Char: Tipe data yang digunakan untuk menyimpan satu karakter. Char diwakili oleh tanda kutip tunggal (''). Contoh: 'a', 'b', atau '1'.
 
 ## Tanggal/waktu
-- Date (Tanggal): Tipe data yang digunakan untuk merepresentasikan tanggal. Biasanya terdiri dari tahun, bulan, dan hari. Beberapa bahasa pemrograman memiliki tipe data khusus untuk tanggal, misalnya datetime.date di Python.
+Dalam MySQL, terdapat beberapa tipe data yang digunakan untuk menangani tanggal dan waktu. Berikut adalah beberapa tipe data tanggal yang umum digunakan:
 
+DATE: Menyimpan tanggal dengan format "YYYY-MM-DD". Tipe data ini tidak menyimpan informasi waktu, hanya tanggal.
+
+Contoh: '2024-01-30'
+
+TIME: Menyimpan informasi waktu dengan format "HH:MM:SS". Tipe data ini tidak menyimpan tanggal, hanya waktu.
+Contoh: '20:45:00'
+
+DATETIME: Kombinasi dari DATE dan TIME. Menyimpan tanggal dan waktu dengan format "YYYY-MM-DD HH:MM:SS". Contoh: '2024-01-3 25 20:45:00'
+
+TIMESTAMP: Mirip dengan DATETIME, tetapi dengan perbedaan utama dalam cara nilai-nilai default dan nilai saat direkam diperlakukan. Nilai TIMESTAMP secara otomatis diperbarui setiap kali baris diubah.
+
+Contoh: '2024-02-25 20:45:00'
+
+YEAR: Menyimpan nilai tahun dengan format empat digit "YYYY". Digunakan terutama untuk menyimpan tahun.
+
+Contoh: '2024'
 - Datetime (Tanggal dan Waktu): Tipe data yang digunakan untuk merepresentasikan tanggal dan waktu. Selain tahun, bulan, dan hari, tipe data ini juga menyertakan informasi waktu seperti jam, menit, dan detik. Contoh: 2024-01-27 15:30:00.
 ## Boolean
-- tipe data boolean digunakan untuk menyimpan nilai kebenaran, yaitu True (benar) atau False (salah). Tipe data boolean umumnya digunakan dalam kondisi percabangan dan pengambilan keputusan.
+Dalam MySQL, tipe data boolean umumnya diwakili oleh TINYINT(1), di mana nilai 0 menunjukkan "false" dan nilai selain 0 (biasanya 1) menunjukkan "true". Meskipun tipe data boolean tidak secara resmi didukung di MySQL sebelum versi 5.0.3, banyak aplikasi dan pengembang MySQL telah mengadopsi penggunaan TINYINT(1) untuk menyimpan nilai boolean.
 
+Berikut adalah beberapa poin yang dapat membantu menjelaskan tipe data boolean dalam MySQL:
+
+TINYINT(1): Pada dasarnya, MySQL tidak memiliki tipe data boolean yang jelas. Sebagai gantinya, konvensi umum adalah menggunakan kolom TINYINT(1) untuk menyimpan nilai boolean. Ukuran 1 di sini menunjukkan panjang kolom, dan karena itu, nilai yang diizinkan hanya 0 atau 1. Contoh: CREATE TABLE contoh_boolean ( status TINYINT(1) );
+
+0 dan 1: Secara tradisional, nilai 0 sering diartikan sebagai "false" dan nilai 1 diartikan sebagai "true". Namun, beberapa aplikasi atau kasus penggunaan mungkin menggunakan nilai lain sebagai representasi boolean.
+
+NULL: Nilai NULL juga dapat diizinkan untuk kolom TINYINT(1), yang berarti bahwa kolom tersebut tidak memiliki nilai boolean yang ditetapkan. Contoh: INSERT INTO contoh_boolean (status) VALUES (NULL);
+
+Boolean Functions: MySQL menyediakan beberapa fungsi untuk bekerja dengan nilai boolean atau TINYINT(1), seperti IF(), CASE, dan fungsi-fungsi logika seperti AND, OR, dan NOT. Contoh: SELECT IF(status = 1, 'Aktif', 'Tidak Aktif') AS status_text FROM contoh_boolean;
+
+Penanganan Tipe Data Boolean di Aplikasi: Saat menggunakan MySQL dengan bahasa pemrograman tertentu, aplikasi dapat menangani nilai boolean ini dengan lebih mudah, memberikan abstraksi tingkat tinggi untuk representasi boolean.
+
+Perlu dicatat bahwa sejak MySQL versi 8.0.1, MySQL memperkenalkan tipe data BOOLEAN yang sebenarnya, tetapi di bawahnya, sebenarnya masih diimplementasikan sebagai TINYINT(1) untuk kompatibilitas mundur. Namun, dengan menggunakan BOOLEAN, kita dapat menambahkan keterangan semantik dan meningkatkan kejelasan dalam skema basis data
 # Tipe data pilihan
 ## ENUM
 Tipe data ENUM pilihan dalam MySQL memungkinkan Anda untuk menentukan set nilai-nilai yang valid yang dapat dimiliki oleh suatu kolom. Ketika Anda mendefinisikan kolom dengan tipe data ENUM, Anda menyediakan daftar nilai-nilai yang diperbolehkan, dan kolom tersebut hanya dapat mengambil salah satu dari nilai-nilai tersebut.
