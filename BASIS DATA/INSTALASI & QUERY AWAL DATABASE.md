@@ -91,7 +91,9 @@ Kesimpulannya, penggunaan basis data di MySQL berserta formatnya melibatkan pema
 
 # Hasil Dari Database
 ##  Hasil dari Create database
-![[hcd.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/hcd.png?raw=true)
+
 ## Hasil dari show databases
 ![[hsd.png]]
 
