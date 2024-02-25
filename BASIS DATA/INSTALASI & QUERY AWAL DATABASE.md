@@ -306,7 +306,14 @@ insert into customer
     -> Values(2,'isar','rmn','085882169640'),
     -> (3,'Jamil','lhm','085823967204'),
     -> (4,'ardy','rd','0895333405548');
-    ```
+```
+
+## Hasil
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20.png?raw=true)
+
+## Analisis
+
+## Kesimpulan
 
 
 ## Menyebut kolom
@@ -323,10 +330,8 @@ Insert into customer
 ```
 
 ## Hasil
-![[h.insert .png]]
 
-![[h.select 1 kolom.png]]
-![[h.insert tabel baru.png]]
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20tabel%20baru.png?raw=true)
 
 ## Analisis
 
