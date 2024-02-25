@@ -236,21 +236,22 @@ Dalam contoh ini, kolom options dapat memiliki satu atau beberapa kombinasi nila
 
 >[!faq] Perbedaan antara PK dan UNIQUE
 >BOTH PK (Primary Key) and UNIQUE constraints are used to enforce uniqueness in columns, but they have different purposes:
->
 >1. *Primary Key (PK)*:
    - A primary key is a column or a set of columns that uniquely identifies each row in a table.
    - There can only be one primary key constraint per table.
    - Primary keys can't have NULL values.
    - By default, primary key constraints create a clustered index on the column(s), which improves query performance.
    - Often used as a reference point for relationships with other tables (foreign keys).
-
-2. *Unique Constraint*:
+>
+>2. *Unique Constraint*:
    - A unique constraint ensures that all values in a column (or a set of columns) are distinct from one another.
    - Unlike primary keys, multiple unique constraints can be defined in a single table.
    - Unique constraints can have NULL values (except in Oracle, where NULLs are considered distinct).
    - Unique constraints create a non-clustered index on the column(s) by default, which also enhances query performance for filtering and searching.
+>
+>In summary, a primary key uniquely identifies each row in a table and is typically used as the main reference for relationships with other tables. Unique constraints ensure that values in a column (or set of columns) are distinct but do not necessarily serve as the primary means of identifying individual rows.
 
-In summary, a primary key uniquely identifies each row in a table and is typically used as the main reference for relationships with other tables. Unique constraints ensure that values in a column (or set of columns) are distinct but do not necessarily serve as the primary means of identifying individual rows.
+
 
 # Insert
 ## Insert 1 data
