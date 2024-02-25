@@ -30,7 +30,8 @@ Query dalam konteks basis data mengacu pada perintah atau instruksi yang digunak
 
 Perintah mysql -u root -p sendiri bukanlah sebuah query MySQL, melainkan cara untuk mengakses server MySQL menggunakan klien baris perintah (CLI) dan login sebagai pengguna "root" dengan meminta kata sandi.
 ## Hasil
-![contoh](contoh.jpg)
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/contoh.jpg?raw=true)
 
 # Analisis
 Perintah mysql -u root -p adalah cara untuk mengakses server MySQL menggunakan klien baris perintah (CLI) dan login sebagai pengguna "root" dengan meminta kata sandi. Ini memiliki beberapa implikasi dan aspek yang perlu dianalisis:
