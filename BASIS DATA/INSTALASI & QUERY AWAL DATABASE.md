@@ -17,7 +17,7 @@
 
  5. baru enter lalu nantinya akan muncul seperti ini klik lagi enter
 
-    ![[frhan.png]]
+    ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/frhan.png?raw=true)
 
 
 # Referensi video youtube
