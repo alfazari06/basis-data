@@ -5,7 +5,7 @@
     ![[r.p.png]]
 3. klik shell
 
-    ![[rpl.png]]
+    ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
   4. ketik mysql -u root -p
 
