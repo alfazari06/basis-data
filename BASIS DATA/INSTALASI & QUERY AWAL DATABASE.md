@@ -201,67 +201,6 @@ Dalam contoh ini, kolom options dapat memiliki satu atau beberapa kombinasi nila
 
 In summary, a primary key uniquely identifies each row in a table and is typically used as the main reference for relationships with other tables. Unique constraints ensure that values in a column (or set of columns) are distinct but do not necessarily serve as the primary means of identifying individual rows.
 
-# Table
-## Buat Table
-1. Pertama-tama kita membuat data base dengan QUERY Create database; seperti contoh di bawah ini:
-     ![[hcd.png]]
-
-2. Kemudia kaloh kita ingin melihat nama databese kita, kita menggunakan QUERY show databases; seperti contoh di bawah ini:
-    ![[hsd.png]]
-
-3. selanjutnya kita menggunakan database dengan QUERY USE dan kemudian  membuat table dengan Query create dengan nama database kita kemudian kita tuliskan Query yang ada di dalam table kita seperti contoh di bawah ini:
-    ![[buat.table3.png]]
-
-4. makah selesai sudah cara kita membuat table dalam mysql kemudian Query Tampilkan table database describe seperti contoh di bawah ini:
-     ![[buat.table6.png]]
-
-## Struktur Buat table
-
-```mysql
-create table nama_table(
-nama_kolom_1 tipe_data(max karaker) conctraint,
-nama_kolom_2 tipe_data(max karakter) conctraint,
-nama_kolom_3 tipe_data(max karakter) conctraint,
-);
-```
-
-## Contoh
-```mysql
-create table data_penduduk(
-NIK int(16) primary key not null,
-nama varchar(25) not null
-nama_keluarga varchar(25),
-no_telp char(12) unique);
-```
-
-## Hasil
-![[buat.table6.png]]
-
-## Analisis
-- `create table` Query untuk membuat table, `data_penduduk` adalah nama table yang kita buat
-- `NIK` (Nomor induk kependudukan) adalah sebuah nilai/kerakter kolom pertama `int(16)` adalah sebuah tipe data yang maxsimun 16 kerakter `PRIMARY KEY` Kolom ini merupakan primary key dari tabel, yang berarti setiap nilai di kolom ini harus unik dan tidak boleh NULL. Dengan demikian, NIK digunakan untuk mengidentifikasi setiap penduduk secara unik. `not null` adalah sebuah constraint_data tidak boleh kosong
-- `nama` adalah sebuah nilai/kerakter kolom kedua. `varchar` adalah sebuah tipe data yang maxsimun 16 kerakter `not null` adalah sebuah constraint_data tidak boleh kosong
-- `nama keluarga` adalah sebuah nilai/kerakter kolom ketiga. `varchar` adalah sebuah tipe data yang maxsimun 16 kerakter `not null` adalah sebuah constraint_data tidak boleh kosong
-- `no_telp` adalah sebuah nilai/kerakter kolom ketiga. `char` adalah sebuah tipe data yang maxsimun 16 kerakter `unique` Menggunakan constraint UNIQUE, yang memastikan bahwa tidak ada dua penduduk dengan nomor telepon yang sama dalam tabel. 
-
-## kesimpulan
-1. NIK (Nomor Induk Kependudukan):
-   - Primary Key: Kolom ini berperan sebagai primary key, yang berarti setiap baris dalam tabel memiliki nilai NIK yang unik dan tidak dapat kosong.
-   - Tipe Data: INT(16) menunjukkan bahwa NIK adalah bilangan bulat dengan panjang maksimum 16 digit.
-
-2. nama (Nama Penduduk):
-   - Tidak boleh Kosong: Constraint NOT NULL diterapkan, yang berarti setiap entri dalam kolom ini harus memiliki nilai.
-   - Tipe Data: VARCHAR(25) menunjukkan bahwa nama bisa memiliki maksimum 25 karakter.
-
-3. nama_keluarga (Nama Keluarga Penduduk):
-   - Tidak ada Constraint Khusus: Kolom ini dapat memiliki nilai NULL, dan nilai yang sama dapat muncul berkali-kali.
-   - Tipe Data: VARCHAR(25) menunjukkan bahwa nama keluarga bisa memiliki maksimum 25 karakter.
-
-4. no_telp (Nomor Telepon):
-   - Unik: Constraint UNIQUE diterapkan, memastikan bahwa setiap nomor telepon di kolom ini harus unik di antara semua entri dalam tabel.
-   - Tipe Data: CHAR(12) menunjukkan bahwa nomor telepon harus memiliki panjang tepat 12 karakter.
-
-
 # Insert
 ## Insert 1 data
 
@@ -312,8 +251,22 @@ insert into customer
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20.png?raw=true)
 
 ## Analisis
+Query MySQL di atas adalah perintah INSERT INTO yang bertujuan untuk menyisipkan beberapa baris data ke dalam tabel customer. Data yang ingin dimasukkan adalah sebagai berikut:
+
+1. Baris pertama: Nilai 2 untuk kolom pertama (mungkin ID pelanggan), 'isar' untuk kolom kedua (mungkin nama depan), 'rmn' untuk kolom ketiga (mungkin nama belakang), dan '085882169640' untuk kolom keempat (mungkin nomor telepon).
+
+2. Baris kedua: Nilai 3 untuk kolom pertama (mungkin ID pelanggan), 'Jamil' untuk kolom kedua (mungkin nama depan), 'lhm' untuk kolom ketiga (mungkin nama belakang), dan '085823967204' untuk kolom keempat (mungkin nomor telepon).
+
+3. Baris ketiga: Nilai 4 untuk kolom pertama (mungkin ID pelanggan), 'ardy' untuk kolom kedua (mungkin nama depan), 'rd' untuk kolom ketiga (mungkin nama belakang), dan '0895333405548' untuk kolom keempat (mungkin nomor telepon).
 
 ## Kesimpulan
+Query MySQL di atas berusaha untuk menyisipkan beberapa baris data ke dalam tabel customer. 
+
+1. Baris pertama: Menambahkan data pelanggan dengan ID 2, nama depan 'isar', nama belakang 'rmn', dan nomor telepon '085882169640'.
+
+2. Baris kedua: Menambahkan data pelanggan dengan ID 3, nama depan 'Jamil', nama belakang 'lhm', dan nomor telepon '085823967204'.
+
+3. Baris ketiga: Menambahkan data pelanggan dengan ID 4, nama depan 'ardy', nama belakang 'rd', dan nomor telepon '0895333405548'.
 
 
 ## Menyebut kolom
@@ -334,9 +287,14 @@ Insert into customer
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20tabel%20baru.png?raw=true)
 
 ## Analisis
+Query MySQL di atas adalah perintah INSERT INTO yang digunakan untuk menyisipkan/menambahkan data ke dalam tabel customer. Data yang disisipkan adalah sebagai berikut:
 
+- Kolom nama_asli akan diisi dengan nilai 'hansar'.
+- Kolom id_customer akan diisi dengan nilai 5.
+
+Ini berarti data pelanggan dengan nama asli 'hansar' dan ID '5' akan dimasukkan ke dalam tabel customer. Perlu dicatat bahwa jika kolom-kolom lain dalam tabel memiliki nilai default atau tidak wajib diisi, mereka akan diisi dengan nilai default atau NULL sesuai dengan konfigurasi tabel.
 ## Kesimpulan
-
+Query MySQL di atas adalah perintah INSERT INTO yang bertujuan untuk menyisipkan data ke dalam tabel customer. Data yang disisipkan adalah pelanggan dengan nama asli 'hansar' dan ID pelanggan '5'. Dengan kata lain, query ini menambahkan baris baru ke dalam tabel customer dengan nilai-nilai yang telah ditentukan untuk kolom nama_asli dan id_customer.
 
 # Select
 ## Struktur
