@@ -307,15 +307,9 @@ insert into customer
     -> (3,'Jamil','lhm','085823967204'),
     -> (4,'ardy','rd','0895333405548');
     ```
-## Hasil
-![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/h.insert%20.png?raw=true)
-
-## Analisis
-
-## Kesimpulan
 
 
-# Menyebut kolom
+## Menyebut kolom
 ```mysql
 insert into nama_table
 ('NILAI','NILAI2','NILAI3','NILAI4') values ('NILAI','NILAI2','NILAI3','NILAI4')
