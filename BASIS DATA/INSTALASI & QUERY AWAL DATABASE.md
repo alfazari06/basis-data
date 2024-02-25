@@ -309,12 +309,11 @@ select * from customer;
 
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[tabel3.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/tabel3.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah yang digunakan untuk menampilkan semua data dari tabel 'customer'. Tidak ada kondisi pencarian khusus yang ditentukan dalam query ini, sehingga query akan mengembalikan semua baris yang ada dalam tabel 'customer'.
-
-Analisis:
 - SELECT *: Memilih semua kolom dari tabel 'customer'.
 - FROM customer: Menentukan tabel yang akan diambil datanya, yaitu 'customer'.
 
@@ -337,7 +336,8 @@ select nama_depan from customer;
 
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[tabel4.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/tabel4.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah yang digunakan untuk menampilkan hanya kolom 'nama_depan' dari tabel 'customer'. 
@@ -368,7 +368,8 @@ where id_customer=2;
 
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[tabel5.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/tabel5.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah yang digunakan untuk menampilkan semua data dari tabel 'customer' dimana nilai kolom 'id_customer' sama dengan 2.
@@ -395,7 +396,8 @@ Query MySQL di atas digunakan untuk mengambil semua data dari tabel 'customer' d
 ```
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[H.UPDATE.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/H.UPDATE.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah yang digunakan untuk memperbarui data dalam tabel 'customer'. Query tersebut memiliki dua bagian utama:
@@ -425,7 +427,8 @@ DELETE FROM CUSTOMER WHERE ID_CUSTOMER=1;
 
 ## Hasil
 setelah kamu mengetikkan query diatas selanjutnya klik enter  maka akan muncul tampilan seperti yang di bawah ini yang berarti kamu telah berhasil:
-![[H.DELETE.png]]
+
+![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/H.DELETE.png?raw=true)
 
 ## Analisis
 Query MySQL di atas adalah perintah yang digunakan untuk menghapus data dari tabel 'customer' dimana nilai kolom 'id_customer' sama dengan 1.
