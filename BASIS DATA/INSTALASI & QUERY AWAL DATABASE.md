@@ -282,6 +282,22 @@ valeus ('NILAI','NILAI2','NILAI3','NILAI4');
 ```mysql
 insert into customerr values (1,'raihan','alfz','087868449445');
 ```
+## Hasil
+
+## Analisis
+Query MySQL di atas adalah perintah INSERT INTO yang digunakan untuk menyisipkan data ke dalam tabel customerr. Data yang akan dimasukkan adalah: 1 sebagai nilai untuk kolom pertama (mungkin ID pelanggan), 'raihan' untuk kolom kedua (mungkin nama depan), 'alfz' untuk kolom ketiga (mungkin nama belakang), dan '087868449445' untuk kolom keempat (mungkin nomor telepon).
+
+Namun, perlu diperhatikan bahwa jika tabel customerr belum ada, maka query ini akan menghasilkan error. Juga, pastikan bahwa struktur tabel customerr sesuai dengan urutan kolom yang dimasukkan dalam perintah INSERT INTO.
+## Kesimpulan
+Query MySQL di atas adalah sebuah perintah INSERT INTO yang bertujuan untuk menyisipkan data ke dalam tabel customerr. Data yang disisipkan adalah sebagai berikut:
+
+- Kolom pertama (mungkin ID pelanggan) akan diisi dengan nilai 1.
+- Kolom kedua (mungkin nama depan) akan diisi dengan nilai 'raihan'.
+- Kolom ketiga (mungkin nama belakang) akan diisi dengan nilai 'alfz'.
+- Kolom keempat (mungkin nomor telepon) akan diisi dengan nilai '087868449445'.
+
+Kesimpulannya, query ini dimaksudkan untuk menambahkan data pelanggan dengan nama 'Raihan Alfz' dan nomor telepon '087868449445' ke dalam tabel customerr.
+
 
 ## Insert >1 data
 ```mysql
