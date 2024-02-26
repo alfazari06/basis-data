@@ -13,15 +13,6 @@ yang di beri hak akses.
 
 
 
-# PERANAN BASIS DATA
-peranan basis data memiliki peranan penting dalam menyimpan, mengelola, dan mengakses informasi secara efisien. fungsi utamanya melibatkan penyimpanan data, pembaruan pencarian, dan penghapusan informasi untuk mendukung aplikasi dan proses bisnis.
-##   ARSIP TVRI
-### 1 DAFTAR KARYAWAN
-
-### 2 PENGELUARAN UNTUK SYUTING LUAR
-### 3 KEBUTUHAN/ PERALATAN 
-
-
 
  
 # menggunakan xampp
