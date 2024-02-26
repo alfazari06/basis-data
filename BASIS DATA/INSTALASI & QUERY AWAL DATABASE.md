@@ -58,7 +58,7 @@ Jadi, struktur hierarki dalam basis data pada tabel menunjukkan hubungan hierark
 
 ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rpl.png?raw=true)
 
-  4. ketik mysql -u root -p
+  5. ketik mysql -u root -p
 
   ![alt text](https://github.com/alfazari06/basis-data/blob/main/ASETBASISDATA/rehan.png?raw=true)  
 
