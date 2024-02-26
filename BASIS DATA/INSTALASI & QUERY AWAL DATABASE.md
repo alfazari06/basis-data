@@ -283,8 +283,7 @@ Dalam contoh ini, kolom options dapat memiliki satu atau beberapa kombinasi nila
 
 
 >[!faq] Perbedaan antara PK dan UNIQUE
->
->PK (Primary Key) dan Unique Key adalah dua konsep dalam desain database yang sering digunakan untuk memastikan keunikan nilai di dalam sebuah tabel, tetapi mereka memiliki perbedaan yang penting:
+PK (Primary Key) dan Unique Key adalah dua konsep dalam desain database yang sering digunakan untuk memastikan keunikan nilai di dalam sebuah tabel, tetapi mereka memiliki perbedaan yang penting:
 
 1. *Primary Key (PK)*:
    - Sebuah kolom atau kombinasi dari kolom yang secara unik mengidentifikasi setiap baris dalam tabel.
